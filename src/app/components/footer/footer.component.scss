@@ -1,0 +1,75 @@
+.main_footer {
+    padding: 3rem 0;
+    background-color: #F8F8F8;
+}
+
+.logo {
+    margin-left: -2rem;
+    margin-bottom: 2rem;
+}
+.desc {
+    font: 400 18px/35.19px Poppins;
+}
+.social {
+    
+    background-color: #E5E5E5;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 3px;
+    text-align: center;
+
+    img {
+        width: 29px;
+        height: 29px;
+    }
+
+}
+.what_we_do, .contact {
+    margin-top: 8rem ;
+    span {
+        font: 600 16px/24px Poppins;
+    }
+    .missions {
+            margin-top: 2rem;
+            font: 500 16px/24px Poppins;
+        
+    }
+}
+.social-media_second {
+    display: none !important;
+}
+.navbar-nav {
+    justify-content: end;
+    flex-direction: row;
+    position: relative;
+    top: -6rem;
+    *{
+        margin:2rem
+    }
+}
+@media (max-width:1000px) {
+    .logo {
+        margin-left: 0;
+    }
+    .social-media,.what_we_do,.gap,.navbar-nav {
+        display: none !important;
+    }
+    .contact {
+margin-top: -4rem;
+span {
+    display: none;
+}
+    }
+    .main_footer {
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
+   .desc {
+    display: none;
+   } 
+    .social-media_second {
+        display: flex !important;
+        justify-content: center
+    }
+    
+}

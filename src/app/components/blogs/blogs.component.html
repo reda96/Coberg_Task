@@ -1,0 +1,60 @@
+<div  class="mt-4 blogs_container">
+    <div *ngIf="scrollableToRight" (click)="scrollRight()" id="next" class="next" >
+        <i class="bi bi-chevron-right"></i>
+    </div>
+    <div *ngIf="scrollableToLeft" (click)="scrollLeft()" id="prev" class="prev" >
+        <i class="bi bi-chevron-left"></i>
+    </div>
+    <div class="title">
+        Blogs
+    </div>
+    <div class="slider" #sliderContent>
+        <div class="slider_card">
+            <img src="../../../assets/images/image 12interior.png" alt="">
+            <div class="title">Modern Interior</div>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit ut
+                 aliquam,</p>
+        </div>
+   
+        <div class="slider_card">
+            <img src="../../../assets/images/image 13exterior.png" alt="">
+            <div class="title">Exterior Project</div>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit ut
+                 aliquam,</p>
+        </div>
+        <div class="slider_card">
+            <img src="../../../assets/images/image 14grey.png" alt="">
+            <div class="title">Grey Beauty</div>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit ut
+                 aliquam,</p>
+        </div>
+        <div class="slider_card">
+            <img src="../../../assets/images/image 20plantation.png" alt="">
+            <div class="title">Plantation interior</div>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit ut
+                 aliquam,</p>
+        </div>
+        <div class="slider_card">
+            <img src="../../../assets/images/image 21role.png" alt="">
+            <div class="title">Role of furnitures</div>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit ut
+                 aliquam,</p>
+        </div>
+        <div class="slider_card">
+            <img src="../../../assets/images/image 12interior.png" alt="">
+            <div class="title">Modern Interior</div>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit ut
+                 aliquam,</p>
+        </div>
+    </div>
+    <div style="text-align: center;">
+    <button>View all</button>
+</div>
+
+</div>

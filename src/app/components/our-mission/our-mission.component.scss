@@ -1,0 +1,48 @@
+.title {
+    
+        text-align: center;
+        color: black;
+        font: 500 36px/54px Poppins;
+}
+.task_card {
+    *{
+        cursor: pointer;
+    }
+    text-align: center;
+    span {
+        display: block;
+        font: 600 24px/36px Poppins;
+        color:  #4B2A63;
+        margin: 2rem 0;
+    }
+    img {
+        border-radius: 15px;
+  
+        
+    }
+}
+.description {
+    text-align: center;
+    font: 400 18px/27px Poppins;
+    margin: 5rem auto 3rem;
+    width: 80%;
+    
+}
+@media (max-width:1000px) {
+    .task_card {
+       
+        img {
+            border-radius: 15px;
+
+            
+        }
+    }  
+    .description {
+        display: none;
+    }
+    .title {
+        text-align: start;
+        margin-left: 5rem
+    }
+    
+}

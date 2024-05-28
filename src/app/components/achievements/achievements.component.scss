@@ -1,0 +1,21 @@
+.why_us {
+    margin: 2rem 0;
+    text-align: center;
+    color: black;
+    font: 500 36px/54px Poppins;
+ 
+}
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    > div {
+        text-align: center
+    }
+    span {
+        display: block;
+        max-width: 12ch;
+        text-wrap: wrap;
+        font: 400 18px/27px Poppins;
+        margin:2rem;
+    }
+}
